@@ -5,7 +5,7 @@ body {
 .tables {
     display: grid;
     grid: 150px / auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 1px;
     padding: 10px;
     height: 300px;
 }
@@ -17,41 +17,77 @@ body {
 .element1 {
     height: 70px;
     width: 70px;
-    background-color: brown;
+    background-color: yellow;
     border: 1px solid black;
 }
 
 .element2 {
     height: 70px;
     width: 70px;
-    background-color: rgb(42, 165, 48);
+    background-color: red;
     border: 1px solid black;
 }
 
 .element3 {
     height: 70px;
     width: 70px;
-    background-color: rgb(67, 42, 165);
+    background-color: green;
     border: 1px solid black;
 }
 
 .element4 {
     height: 70px;
     width: 70px;
-    background-color: rgb(221, 26, 166);
+    background-color: black;
     border: 1px solid black;
 }
 
 .element5 {
     height: 70px;
     width: 70px;
-    background-color: rgb(221, 216, 216);
+    background-color: pink;
     border: 1px solid black;
 }
 
 .element6 {
     height: 70px;
     width: 70px;
-    background-color: rgb(165, 42, 91);
+    background-color: blue;
     border: 1px solid black;
+}
+
+.element7 {
+    height: 70px;
+    width: 70px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.element8 {
+    height: 70px;
+    width: 70px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.element9 {
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.element10 {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.elements {
+    display: flex;
+}
+
+.elements div {
+    margin: 5px;
 }
