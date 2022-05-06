@@ -5,7 +5,7 @@ body {
 .tables {
     display: grid;
     grid: 150px / auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 1px;
     padding: 10px;
     height: 300px;
 }
