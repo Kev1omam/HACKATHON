@@ -17,41 +17,35 @@ body {
 .element1 {
     height: 70px;
     width: 70px;
-    background-color: brown;
-    border: 1px solid black;
+    background-color: yellow;
 }
 
 .element2 {
     height: 70px;
     width: 70px;
-    background-color: rgb(42, 165, 48);
-    border: 1px solid black;
+    background-color: red;
 }
 
 .element3 {
     height: 70px;
     width: 70px;
-    background-color: rgb(67, 42, 165);
-    border: 1px solid black;
+    background-color: green;
 }
 
 .element4 {
     height: 70px;
     width: 70px;
-    background-color: rgb(221, 26, 166);
-    border: 1px solid black;
+    background-color: black;
 }
 
 .element5 {
     height: 70px;
     width: 70px;
-    background-color: rgb(221, 216, 216);
-    border: 1px solid black;
+    background-color: pink;
 }
 
 .element6 {
     height: 70px;
     width: 70px;
-    background-color: rgb(165, 42, 91);
-    border: 1px solid black;
+    background-color: orange;
 }
