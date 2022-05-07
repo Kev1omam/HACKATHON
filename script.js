@@ -50,25 +50,40 @@ function drop(e) {
 
     if (JSON.stringify(tab) == JSON.stringify(cameroun)) {
       country = "cameroun"
-      alert(country);
+      document.getElementById("country").innerHTML = country;
+      son = new Audio("clap.wav");
+      son.play();
     } else if (JSON.stringify(tab) == JSON.stringify(france)) {
       country = "france"
-      alert(country);
+      document.getElementById("country").innerHTML = country
+      son = new Audio("clap.wav");
+      son.play();
     } else if (JSON.stringify(tab) == JSON.stringify(canada)) {
       country = "canada"
-      alert(country);
+      document.getElementById("country").innerHTML = country
+      son = new Audio("clap.wav");
+      son.play();
     } else if (JSON.stringify(tab) == JSON.stringify(senegal)) {
       country = "senegal"
-      alert(country);
+      document.getElementById("country").innerHTML = country
+      son = new Audio("clap.wav");
+      son.play();
     } else if (JSON.stringify(tab) == JSON.stringify(tchad)) {
       country = "tchad"
-      alert(country);
+      document.getElementById("country").innerHTML = country
+      son = new Audio("clap.wav");
+      son.play();
     } else {
-      alert("try Again")
+      document.getElementById("country").innerHTML = "retry again country dont exit now"
+      son = new Audio("audio.mp3");
+      son.play();
     }
 
   }
 
 }
 
+// let modal = document.getElementById("myModal");
+
+// let span = document.getElementsByClassName("close")[0];
 
