@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="./PageAccueil.css">
 </head>
 
-<body onload="myFunction()">
-  <div class="centerBox">
+<body>
+  <div class="centerBox" onclick="myFunction(event)">
     <form>
       <div class="categoryWrapper">
         <h1>GAMING</h1>
@@ -28,14 +28,20 @@
         </button>
 
       </div>
-
+      <audio controls autoplay id="audio" hidden>
+        <source src="audio.mp3" type="audio/mpeg">
+      </audio>
   </div>
+
   </form>
 
+
   <script>
-    function myFunction() {
-      var audio = new Audio("./audio.mp3");
-      audio.play();
+    function myFunction(e) {
+      //e.preventDefault();
+      document.getElementById("audio").play()
+      //alert("hi !!")
+
     }
   </script>
 </body>
